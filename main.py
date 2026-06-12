@@ -4,11 +4,15 @@
 
 class ExamplePlugin:
     
-    CATEGORY = "other/example"   # 大类/子类, 例如: audio/asr 或者 audio/tts
-    NAME = "示例插件项目"         # 您的插件名称, 显示在插件列表中
-    VERSION = "0.0.1"            # 插件版本号, 例如: "1.2.0"
-    AUTHOR = "ComeCut"           # 您的插件作者, 作者名称
-    GITHUB = None                # 例如: "https://github.com/user/repo"
+    # 定义插件基本元数据信息
+    INFO = {
+        "category": "other/example",        # 大类/子类, 例如: audio/asr 或者 audio/tts
+        "name": "示例插件项目",              # 您的插件名称, 显示在插件列表中
+        "version": "0.0.1",                 # 插件版本号, 例如: "0.0.1"
+        "author": "ComeCut",                # 您的插件作者, 作者名称
+        "description": "这是一个示例插件",    # 插件额外的描述信息
+        "github": "https://github.com/juntaosun/comecut-example",   # 例如: "https://github.com/user/repo"
+    }
     
     # 定义输入参数类型
     @classmethod

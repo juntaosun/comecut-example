@@ -24,6 +24,8 @@
 
 `main.py` 中定义了一个 `ExamplePlugin` 类，包含以下关键部分：
 
+# INFO 定义插件基本元数据信息  
+
 - `CATEGORY`：插件分类。
 - `NAME`：插件显示名称。
 - `VERSION`：插件版本号。
