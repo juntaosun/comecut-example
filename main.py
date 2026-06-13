@@ -30,6 +30,9 @@ class ExamplePlugin:
     # 扩展被调用的方法 -- 包括约定的输入参数
     def run(self, user_name, count, **kwargs):
         
+        # 可用内置参数
+        print(kwargs)
+        
         # 处理您的数据
         result = f"你好 {user_name}! 这是来自 Python 插件的消息。重复次数: {count}"
         

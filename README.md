@@ -2,6 +2,7 @@
 
 这是一个用于 [ComeCut](https://github.com/juntaosun/ComeCut) 的 Python 插件扩展最小示例项目，当前示例通过 `main.py` 演示了一个最基础的插件定义方式。
 
+
 ## 项目说明
 
 该示例主要展示了以下内容：
@@ -19,6 +20,20 @@
 ├── main.py
 └── README.md
 ```
+
+
+## 安装示例 & Installation  
+
+```bash
+cd comecut_nodes  
+git clone https://github.com/juntaosun/comecut-example  
+
+# 你需要切换到 python_env 目录中: 
+python -m pip install -r comecut-example/requirements.txt  
+# ( 如果您配置了依赖表 requirements.txt ，用户则可以方便的安装它 )  
+```
+
+> 备注：ComeCut 已经集成了先进的插件安装方式，您几乎无需操作任何命令行！  
 
 ## main.py 说明
 
